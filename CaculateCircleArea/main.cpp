@@ -11,7 +11,7 @@ int main()
 	{
 		cin >> r;
 		double s = CCaculator().CaculateCircle(r);
-		cout << s << endl;
+		cout << "所求圆的面积为:" << s << endl;
 	} while (r > 0);
 	system("pause");
 	return 0;
